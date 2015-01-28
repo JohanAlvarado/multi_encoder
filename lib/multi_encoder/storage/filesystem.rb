@@ -9,7 +9,7 @@ module MultiEncoder
       end
 
       def root
-        defined?(Rails) ? Rails.root : Pathname.new('/tmp')
+        defined?(Rails) ? Rails.root : Pathname.new('tmp')
       end
 
       def directory
